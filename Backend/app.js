@@ -7,7 +7,9 @@ const prospectRoute= require("./routes/prospect")
 module.exports=app;
 
 //CORS
-app.use(cors());
+app.use(cors(
+  origin: "https://blood-bank-project-sigma.vercel.app/"
+));
 
 // JSON
 app.use(express.json());
