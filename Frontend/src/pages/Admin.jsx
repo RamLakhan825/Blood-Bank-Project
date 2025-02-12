@@ -45,7 +45,7 @@ navigate("/login");
           <div className="bg-gray-50 m-[30px] h-[300px] w-[350px] shadow-xl">
             <div className="h-[200px] w-[200px]">
               <Gauge
-                value={75}
+                value={2}
                 startAngle={0}
                 endAngle={360}
                 innerRadius="80%"
@@ -59,7 +59,7 @@ navigate("/login");
           <div className="bg-gray-50 m-[30px] h-[300px] w-[350px] shadow-xl">
             <div className="h-[200px] w-[200px] m-[30px] border-[20px] border-red-400 border-solid rounded-full">
               <div className="flex items-center justify-center m-[30px]">
-                <h2 className="font-semibold text-[18px] m-[40px]">100</h2>
+                <h2 className="font-semibold text-[18px] m-[40px]">10</h2>
               </div>
 
               <h2 className="font-semibold text-[18px] m-[40px]">Donors</h2>
@@ -84,7 +84,7 @@ navigate("/login");
       <div className="flex flex-col bg-gray-100 m-[20px] h-[700px] w-[300px] shadow-xl">
         <div className="flex items-center m-[20px] cursor-pointer">
           <FaUser />
-          <span className="ml-[10px] font-semibold" onClick={handleLogout}>Logout</span>
+          <button><span className="ml-[10px] font-semibold" onClick={handleLogout}>Logout</span></button>
         </div>
 
         <div className="flex flex-col items-center justify-center m-[10px]">

@@ -12,6 +12,7 @@ const verifyToken = (req, res, next) => {
       next();
     });
   } else {
+    console.log("ram");
     res.status(401).json("You are not authenticated.");
   }
 };

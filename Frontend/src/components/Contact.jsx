@@ -12,21 +12,21 @@ const Contact = () => {
 
   const handleProspect = async () => {
     try {
-      const userToken = localStorage.getItem("token"); // Retrieve token
+      // const userToken = localStorage.getItem("token"); // Retrieve token
 
-      if (!userToken) {
-        toast.error("Unauthorized: Please log in first!");
-        return;
-      }
+      // if (!userToken) {
+      //   toast.error("Unauthorized: Please log in first!");
+      //   return;
+      // }
 
-      const config = {
-        headers: {
-          Authorization: `Bearer ${userToken}`,
-          "Content-Type": "application/json",
-        },
-      };
+      // const config = {
+      //   headers: {
+      //     Authorization: `Bearer ${userToken}`,
+      //     "Content-Type": "application/json",
+      //   },
+      // };
 
-      await publicRequest.post("/prospects", inputs, config);
+      await publicRequest.post("/prospects", inputs);
       toast.success("You've been successfully added to the database");
       setInputs({});
     } catch (error) {

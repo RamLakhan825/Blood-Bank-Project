@@ -76,7 +76,7 @@ const Prospect = () => {
         </ul>
 
         <span className="block m-[10px]">
-          Do you want to approve James to a donor?
+          Do you want to approve to a donor?
         </span>
 
         <button
