@@ -13,7 +13,7 @@
             "dest": "index.js",
             "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
             "headers": {
-                "Access-Control-Allow-Origin": "https://the-great-indian-restrauant.vercel.app",
+                "Access-Control-Allow-Origin": "https://blood-bank-project-sigma.vercel.app/",
                 "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
                 "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
             }
